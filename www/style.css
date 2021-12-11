@@ -1,0 +1,326 @@
+*{
+    padding: 0px;
+}
+body {
+    margin: 0;
+    font-family: "Helvetica", sans-serif;
+    font-size: 20px;
+    color: #008303;
+    background: #314455;
+}}
+
+a, h1, h2 { 
+    color: black; 
+}
+
+
+h2 {
+    color: #c96567;
+    font-family: 'Raleway',sans-serif;
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 72px;
+    margin: 0 0 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.text {
+    font-family: 'Raleway',sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 0 0 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #97aabd;
+}
+
+.input{
+    border: none;
+    background-color: #C5CACF;
+}
+
+.heading { 
+    font-weight: bold; 
+}
+
+.entry { 
+    margin-bottom: 2em; 
+    padding-bottom: 2em; 
+    border-bottom: 1px solid #888; 
+}
+
+.card {
+    width: 12vw;
+    height: 20vw;
+    min-width: 150px;
+    justify-content: space-between;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #97aabd;
+    box-shadow: -5px -5px 5px -5px #97aabd, 5px 5px 5px -5px #6e849a, -7px -7px 10px -5px transparent, 7px 7px 10px -5px transparent, 0 0 5px 0px rgb(255 255 255 / 0%), 0 55px 35px -20px rgb(0 0 0 / 50%);
+    transition: transform 0.5s ease, box-shadow 0.2s ease;
+    min-height: 240px;
+}
+.card:hover {
+    filter: brightness(1.2) contrast(1.2);
+    transform: scale(1.05);
+}
+
+.cardElem {
+  margin: 2px;
+}
+
+.image {
+    height: 40%;
+}
+
+.imageContainer{
+	border: 1px solid black;
+}
+
+#idClass {
+    /* border: 1px solid black; */
+    color: #314455;
+    font-family: 'Raleway',sans-serif;
+    font-size: x-small;
+    font-weight: 600;
+}
+
+#cardName {
+    /* border: 1px solid black; */
+    font-family: 'Raleway',sans-serif;
+    /* font-size: 1.5em; */
+    font-weight: 600;
+    margin: 0;
+    color: #314455;
+    font-family: 'Raleway',sans-serif;
+    /* font-size: 1.5em; */
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.catalog {
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(151, 170, 189, .08);
+    height: 50vh;
+    padding: 2%;
+    /* display: inline-grid; */
+}
+
+.infoContainer {
+    display: flex;
+    padding-right: 5%;
+    justify-content: space-between;
+}
+
+.buttonContainer {
+    height: 30%;
+    display: flex;
+    flex-flow: column;
+    margin-top: 12%;
+    margin-bottom: 0px;
+}
+
+#cards {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headingContainer {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    background-color: #303E4C;
+    height: 5vh;
+}
+
+.myButton {
+    border-radius: 10px;
+    color: white;
+    border: none;
+    background-color: #C96567;
+    width: 10vw;
+    height: 4vh;
+    font-size: .75em;
+    margin-left: 5%;
+}
+
+#cashout {
+	padding-top: 2%;
+}
+
+.myButton:hover, .myButton:focus {
+    opacity: .85;
+}
+
+.myButton:active {
+    border: 2px solid #99585A;
+}
+
+.winnings {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+    margin-right: 4%;
+}
+
+.winInfo{
+    text-align: center;
+    font-family: 'Raleway',sans-serif;
+    font-size: 1vw;
+    font-weight: 600;
+    margin: 0 0 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #97aabd;
+}
+
+#registerContainer {
+    text-align: center;
+    padding: 0px;
+    float: right;
+    margin: 0px;
+    display: flex;
+}
+
+.playerMessage, #turnWinnerText{
+    text-align: center;
+    font-family: 'Raleway',sans-serif;
+    font-size: 1.5vw;
+    font-weight: 600;
+    margin: 0 0 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #97aabd;
+}
+
+#gameInfo {
+	display: none;
+}
+
+#deckInfo{
+	display: none;
+}
+
+#inGame{
+    display: none;
+}
+
+.cardButton {
+    display: block;
+    margin: 2% 2% 2% 8%;
+    border: none;
+    background: none;
+    text-align: left;
+    color: #;
+    color: #314455;
+    font-family: 'Raleway',sans-serif;
+    font-size: 80%;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.inactiveButton {
+    display: block;
+    margin: 2% 2% 2% 8%;
+    border: none;
+    background: none;
+    text-align: left;
+    color: #;
+    color: #314455;
+    font-family: 'Raleway',sans-serif;
+    font-size: 80%;
+    font-weight: 600;
+}
+
+.cardButton:hover {
+   transform: scale(1.05);	
+   cursor: pointer;
+}
+
+#turnWinner {
+    display: none;
+}
+
+#turnWinnerText{
+
+}
+
+#scoreContainer {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#contentContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player {
+    font-family: 'Raleway',sans-serif;
+    font-size: 1.25vw;
+    font-weight: 600;
+    line-height: 60px;
+    margin: 0 0 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.score {
+    text-align: center;
+    margin-right: 2%;
+    font-family: 'Raleway',sans-serif;
+    font-size: 3.5vw;
+    font-weight: 600;
+    line-height: 60px;
+    margin: 0 0 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.playerScore {
+    margin: 4%;
+    width: 45%;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(151, 170, 189, .4);
+}
+
+#playContainer {
+    border-radius: 10px;
+    width: 25vw;
+    height: 50vh;
+    margin: 4%;
+    padding: 2%;
+    background-color: rgb(151, 170, 189, .08);
+}
+
+#startContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+input[type=text] { 
+    margin: .5em 0; 
+    padding: .5em; 
+    font-size: 12px; 
+    color: #777; 
+    width: 200px;
+}
+
+input[type=textarea] {
+    margin: .5em 0; 
+    padding: .5em; 
+    font-size: 12px; 
+    color: #777; 
+    width: 200px;
+}

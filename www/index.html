@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Etheremon</title>
+		<link rel=stylesheet type="text/css" href="style.css">
+	</head>
+	<body>
+		<div class=page>
+			<div class="headingContainer">
+				<h2>Etheremon</h2>
+				<div id="registerContainer">
+					<input placeholder="Username" id='username' type='text' name='username' class="input">
+					<button class="myButton" id="register">Register</button>
+				</div>
+			</div>
+
+			<div id="contentContainer">
+				<div id="playContainer">
+					<p id="playerTitle" class="text">Player Menu</p>
+					<div id="startContainer">
+						<input placeholder="Opponent Address" id='opponent' type='text' name='opponent' class="input">
+						<button class="myButton" id="play">Play .1 ETH</button>
+					</div>
+					<div id="scoreContainer">
+						<div class="playerScore">
+							<p class="player" id="player">Player 1</p>
+							<p class="score" id="playerScore">500 </p>
+						</div>
+						<div class="playerScore">
+							<p class="player" id="opponentName">Player 2</p>
+							<p class="score" id="opponentScore">500</p>
+						</div>
+					</div>
+					<div id="turnWinner">
+						<p id="turnWinnerText">Test winner text goes here</p>
+					</div>
+					<div class="playerMessage" id="gameInfo">
+						<p id=gameError></p>
+					</div>
+					<div class="winnings">
+						<p class="winInfo" id="gamesWon"></p>
+						<p class="winInfo" id="totalWinnings"></p>
+						<button class="myButton" id="cashout">Cash out</p>
+					</div>
+				</div>
+				<div class="catalog" id="deck">
+					<p id="deckTitle" class="text">Deck</p>
+					<p id="deckInfo" class="playerMessage">Please purchase a card from the catalog</p>
+					<div id="deck"></div>
+				</div>
+			</div>
+
+			<div id="catalogContainer">
+				<div class="catalog" id="catalog">
+					<p id="catalogTitle" class="text">Catalog</p>
+					<div id="cards"></div>
+				</div>
+			
+			</div>
+		</div>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+		<script type="text/javascript" src="cards.js"></script>
+		<script type="text/javascript">
+			loadCards();
+			loadOwned();
+			loadGame();
+			loadWinnings();
+		</script>
+		</div>
+	</body>
+</html>
